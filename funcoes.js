@@ -26,6 +26,7 @@ const product = {
 }
 
 console.log(product.finalPrice());
+console.log(product)
 
 const queDiaEHoje = new Date();
 console.log(new Intl.DateTimeFormat('pt-BR').format(queDiaEHoje));
