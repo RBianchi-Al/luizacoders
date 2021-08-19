@@ -25,8 +25,7 @@ function calcAge(age){
 }
 
 function arrayPerson(...person){
-    const arrayPerson=[];
-    arrayPerson.push(...person)
+    const arrayPerson=[...person];
     console.log(arrayPerson)
 }
 
