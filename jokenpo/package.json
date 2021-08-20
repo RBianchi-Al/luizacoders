@@ -1,0 +1,13 @@
+{
+  "name": "jokenpo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "node src/index.js"
+  },
+  "dependencies": {
+    "inquirer": "^8.1.2",
+    "nodemon": "^2.0.12"
+  }
+}
