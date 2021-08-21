@@ -1,5 +1,5 @@
-const options = require("./data/index")
-const gameby = require("./data/gameby")
+const options = require("./data/index");
+const User = require('./controller/user');
 
-console.log(options)
-console.log(gameby)
+let jogar = new User({options: options}).game();
+jogar
